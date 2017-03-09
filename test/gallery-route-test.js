@@ -121,7 +121,7 @@ describe('Gallery Routes', function() {
         let date = new Date(res.body.created).toString();
         expect(res.body.name).to.equal(exampleGallery.name);
         expect(res.body.desc).to.equal(exampleGallery.desc);
-        expect(res.body.userID).to.equal(this.tempUser._id.toString())
+        expect(res.body.userID).to.equal(this.tempUser._id.toString());
         expect(date).to.not.equal('Invalid Date');
         done();
       });

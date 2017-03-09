@@ -12,7 +12,7 @@ exports.serverOn = function(server, done) {
       done();
     });
     return;
-  };
+  }
   done();
 };
 
@@ -25,7 +25,7 @@ exports.serverOff = function(server, done) {
       done();
     });
     return;
-  };
+  }
   done();
 };
 
